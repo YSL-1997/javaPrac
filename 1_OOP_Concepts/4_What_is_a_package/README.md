@@ -9,3 +9,6 @@ This library is known as the "Application Programming Interface", i.e. "API".
 - File object: allows a programmer to easily create, delete, inspect, compare, or modify a file on the filesystem; 
 - Socket object: allows for the creation and use of network sockets; 
 - GUI objects: control buttons and checkboxes and anything else related to graphical user interfaces. 
+
+
+See https://docs.oracle.com/javase/8/docs/api/index.html for more details.
