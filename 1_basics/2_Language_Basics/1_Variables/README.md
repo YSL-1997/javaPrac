@@ -28,7 +28,7 @@ and exception handlers)
 ## Naming
 Convention: for constant variables - ```static final int NUM_GEARS = 6;```
 
-# #Primitive Data Types (7 in total)
+## Primitive Data Types (7 in total)
 - **byte**: 8-bit, 1 byte, -128~127
 - **short**: 16-bit, 2 bytes, -32,768~32,767
 - **int**: 32-bit, 4 bytes, -2^31~2^31-1
