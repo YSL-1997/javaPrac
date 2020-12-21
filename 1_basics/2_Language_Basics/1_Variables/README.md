@@ -1,7 +1,19 @@
+Original link: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+
 ## Summary
 "fields" == "variables" in Java. **Instance variables (non-static fields)** are unique to each instance of a class. **Class variables (static fields)** are fields declared with the static modifier; there is exactly one copy of a class variable, regardless of how many times the class has been instantiated. Local variables store temporary state inside a method. Parameters are variables that provide extra information to a method; both local variables and parameters are always classified as "variables" (not "fields"). When naming your fields or variables, there are rules and conventions that you should (or must) follow.
 
 The eight primitive data types are: byte, short, int, long, float, double, boolean, and char. The java.lang.String class represents character strings. The compiler will assign a reasonable default value for fields of the above types; for local variables, a default value is never assigned. A literal is the source code representation of a fixed value. An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.
+
+## Exercises
+Original link: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/QandE/questions_variables.html
+1. The term "instance variable" is another name for **non-static field**.
+2. The term "class variable" is another name for **static field**.
+3. A local variable stores temporary state; it is declared **inside a method**.
+4. A variable declared within the opening and closing parenthesis of a method is called a **parameter**.
+5. What are the eight primitive data types supported by the Java programming language? **byte, short, int, long, float, double, boolean, char**.
+6. Character strings are represented by the class **java.lang.String**.
+7. An array is a **container** object that holds a fixed number of values of a **single type**.
 
 ## Definition
 
