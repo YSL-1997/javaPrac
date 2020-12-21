@@ -1,3 +1,5 @@
+##Definition##
+
 1. **Instance Variables** (**Non-Static** Fields): a field declared without the 
 static modifier. Non-static fields are also known as instance variables because 
 their values are unique to each instance of a class (to each object, in other words); 
@@ -22,3 +24,28 @@ they are not accessible from the rest of the class.
 4. **Parameters**: parameters are always classified as "variables" not "fields". 
 This applies to other parameter-accepting constructs as well (such as constructors 
 and exception handlers)
+
+##Naming##
+Convention: for constant variables - ```static final int NUM_GEARS = 6;```
+
+##Primitive Data Types (7 in total)##
+- byte: 8-bit, 1 byte, -128~127
+- short: 16-bit, 2 bytes, -32,768~32,767
+- int: 32-bit, 4 bytes, -2^31~2^31-1
+- long: 64-bit, 8 bytes, -2^63~2^63-1
+```compareUnsigned```, ```divideUnsigned``` etc are in Integer class and Long 
+class to support the arithmetic operations for unsigned integers.
+
+- float: 32-bit, 4 bytes
+- double, 64-bit, 8 bytes
+Never use these for precise values (currency). Use java.math.BigDecimal class instead.
+
+- boolean, 1-bit
+- char, 16-bit, 2 bytes, '\u0000' (or 0) ~ '\uffff' (or 65,535)
+
+Default values are **0** or **NULL** or **false**.
+
+Local variables are slightly different; the compiler never assigns a default value to an uninitialized local variable. If you cannot initialize your local variable where it is declared, make sure to assign it a value before you attempt to use it. Accessing an uninitialized local variable will result in a compile-time error.
+
+
+a few special escape sequences for char and String literals: \b (backspace), \t (tab), \n (line feed), \f (form feed), \r (carriage return), \" (double quote), \' (single quote), and \\ (backslash).
