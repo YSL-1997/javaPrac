@@ -10,7 +10,7 @@
  */
 
 /**
- * interface def of Bicycle
+ * interface definition of Bicycle
  */
 interface Bicycle {
   // wheel revolutions/min
