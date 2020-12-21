@@ -1,2 +1,2 @@
 # javaPrac
-This are the small projects that helps me get used to Java
+This are the small projects that help me get used to Java
