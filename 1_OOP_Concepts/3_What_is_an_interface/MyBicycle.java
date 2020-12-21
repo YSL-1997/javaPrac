@@ -14,7 +14,7 @@ class MyBicycle implements Bicycle {
   // methods are missing from this class.
 
   /**
-   * To actually compile the MyBicycle class, we need to add the public keyword
+   * To actually compile the MyBicycle class, we need to add the public keyword 
    * to the beginning of the implemented interface methods, i.e. public methods 
    * in MyBicycle class
    */
