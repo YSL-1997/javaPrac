@@ -49,3 +49,22 @@ Local variables are slightly different; the compiler never assigns a default val
 
 
 a few special escape sequences for char and String literals: \b (backspace), \t (tab), \n (line feed), \f (form feed), \r (carriage return), \" (double quote), \' (single quote), and \\ (backslash).
+
+## Arrays
+common methods can be found in **java.util.Arrays** class.
+
+- Instead of using arraycopy(), can use copyOfRange():
+
+```char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);```
+
+Other useful methods in **java.util.Arrays**:
+- binarySearch() - Searching an array for a specific value to get the index at which it is placed.
+- equals - Comparing two arrays to determine if they are equal or not.
+- fill() - Filling an array to place a specific value at each index.
+- sort() & parallelSort(): Sorting an array into ascending order. Either sequentially (sort), or concurrently on multiprocessor systems (parallelSort).
+
+
+## Summary
+"fields" == "variables" in Java. **Instance variables (non-static fields)** are unique to each instance of a class. **Class variables (static fields)** are fields declared with the static modifier; there is exactly one copy of a class variable, regardless of how many times the class has been instantiated. Local variables store temporary state inside a method. Parameters are variables that provide extra information to a method; both local variables and parameters are always classified as "variables" (not "fields"). When naming your fields or variables, there are rules and conventions that you should (or must) follow.
+
+The eight primitive data types are: byte, short, int, long, float, double, boolean, and char. The java.lang.String class represents character strings. The compiler will assign a reasonable default value for fields of the above types; for local variables, a default value is never assigned. A literal is the source code representation of a fixed value. An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.
