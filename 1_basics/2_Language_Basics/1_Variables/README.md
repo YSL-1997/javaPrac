@@ -113,8 +113,8 @@ objChild instanceof MyInterface; // true
 
 3. **>>>**: unsigned right shift operator - shifts a zero into the leftmost position, while the leftmost position after ">>" depends on sign extension.
 
-4. **&**: bitwise & operator - performs a bitwise AND operation.
+4. **&**: bitwise AND.
 
-5. **^**: bitwise ^ operator - performs a bitwise exclusive OR operation.
+5. **^**: bitwise exclusive OR.
 
-6. **|**: bitwise | operator - performs a bitwise inclusive OR operation.
+6. **|**: bitwise inclusive OR.
