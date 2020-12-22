@@ -81,9 +81,26 @@ Other useful methods in **java.util.Arrays**:
 - **fill()** - Filling an array to place a specific value at each index.
 - **sort()** & **parallelSort()**: Sorting an array into ascending order. Either sequentially (sort), or concurrently on multiprocessor systems (parallelSort).
 
-## Increment
+## Operators
+### Increment (++)
 ```
 int n = 0;
 System.out.println(++n); // print 1
 System.out.println(n++); // print 1, and n is 2 after execution of this line
+```
+
+### Type comparison (instanceof)
+```
+class Parent {}
+interface MyInterface {}
+class Child extends Parent implements MyInterface {}
+
+Parent objParent = new Parent();
+Parent objChild = new Child();
+System.out.println("objParent instanceof Parent: " + (objParent instanceof Parent)); // print true
+System.out.println("objParent instanceof Child: " + (objParent instanceof Child)); // print false
+objParent instanceof MyInterface; // false
+objChild instanceof Parent; // true
+objChild instanceof Child; // true
+objChild instanceof MyInterface; // true
 ```
