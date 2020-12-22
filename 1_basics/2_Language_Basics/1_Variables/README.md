@@ -89,7 +89,7 @@ System.out.println(++n); // print 1
 System.out.println(n++); // print 1, and n is 2 after execution of this line
 ```
 
-### Type comparison (instanceof)
+### Type Comparison (instanceof)
 **null** is not an instance of anything.
 ```
 class Parent {}
@@ -105,3 +105,16 @@ objChild instanceof Parent; // true
 objChild instanceof Child; // true
 objChild instanceof MyInterface; // true
 ```
+
+### Bitwise and Bit Shift Operators
+1. **~**: unary bitwise complement operator - inverts a bit pattern; applied to any integral types; 0->1, 1->0; e.g. ~"00000000" == "11111111"
+
+2. **<<**: signed left shift operator - shifts a bit pattern to the left (**>>** shifts a bit pattern to the right); e.g. 1<<2 == 4; 1>>3 = 1/8
+
+3. **>>>**: unsigned right shift operator - shifts a zero into the leftmost position, while the leftmost position after ">>" depends on sign extension.
+
+4. **&**: bitwise & operator - performs a bitwise AND operation.
+
+5. **^**: bitwise ^ operator - performs a bitwise exclusive OR operation.
+
+6. **|**: bitwise | operator - performs a bitwise inclusive OR operation.
