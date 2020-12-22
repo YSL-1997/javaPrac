@@ -90,6 +90,7 @@ System.out.println(n++); // print 1, and n is 2 after execution of this line
 ```
 
 ### Type comparison (instanceof)
+**null** is not an instance of anything.
 ```
 class Parent {}
 interface MyInterface {}
