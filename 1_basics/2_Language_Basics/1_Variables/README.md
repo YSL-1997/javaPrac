@@ -76,7 +76,14 @@ common methods can be found in **java.util.Arrays** class.
 ```char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);```
 
 Other useful methods in **java.util.Arrays**:
-- binarySearch() - Searching an array for a specific value to get the index at which it is placed.
-- equals - Comparing two arrays to determine if they are equal or not.
-- fill() - Filling an array to place a specific value at each index.
-- sort() & parallelSort(): Sorting an array into ascending order. Either sequentially (sort), or concurrently on multiprocessor systems (parallelSort).
+- **binarySearch()** - Searching an array for a specific value to get the index at which it is placed.
+- **equals()** - Comparing two arrays to determine if they are equal or not.
+- **fill()** - Filling an array to place a specific value at each index.
+- **sort()** & **parallelSort()**: Sorting an array into ascending order. Either sequentially (sort), or concurrently on multiprocessor systems (parallelSort).
+
+## Increment
+```
+int n = 0;
+System.out.println(++n); // print 1
+System.out.println(n++); // print 1, and n is 2 after execution of this line
+```
